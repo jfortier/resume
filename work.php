@@ -1,17 +1,19 @@
 <div class="col-xs-12 col-md-4">
+
   <h3>Work Experience</h3>
   <ul>
-    <li>Pair Shaped</li>
-    <li>MRX Digital Sport Solutions</li>
-    <li>3H Communications</li>
-    <li>Glanfield Marketting</li>
+    <li><a href="#pair-shaped">Pair Shaped</a></li>
+    <li><a href="#mrx">MRX Digital Sports Solutions</a></li>
+    <li><a href="#3H">3H Communications</a></li>
+    <li><a href="#Glanfield">Glanfield Marketting</a></li>
   </ul>
+
 </div>
 
 <div class="col-xs-12 col-md-8">
-  <h3>Pair Shaped</h3>
-  <h4>Web Developer &ndash; Kitchener, ON</h4>
 
+  <h3 id="pair-shaped">Pair Shaped</h3>
+  <h4>Web Developer &ndash; Kitchener, ON</h4>
   <p>
     A developer shop focused on pairs programming, responsive design, and exciting new techonologies.
     Development stack included PHP or Ruby on Rails, MySQL, SASS, CoffeeScript, React, Bower, Gulp, and Nginx.
@@ -23,7 +25,7 @@
     <li>Configured and maintained Amazon EC2 servers running Ubuntu.</li>
   </ul>
 
-  <h3>MRX Digital Sport Solutions </h3>
+  <h3 id="mrx">MRX Digital Sport Solutions </h3>
   <h4>Senior Web Developer &ndash; Hamilton, ON</h4>
   <p>MRX was a digital media solutions company focused on the sports industry. Clients include the Canadian Hockey League, and Canadian Football League.</p>
 
@@ -36,7 +38,15 @@
     <li>Mentored junior developers using pairs programming, peer reviews, and technologiy demos.</li>
   </ul>
 
-  <h3>3H Communications <small>&ndash; Oakville, ON</small></h3>
+  <h3 id="3H">3H Communications <small>&ndash; Oakville, ON</small></h3>
+  <h4> Web Developer &ndash; Oakville, ON</h4>
+  <p>A bilingual marketing advertising agency with focus on branding, design, print, and web media. Clients included Windsor Salt, Sanofi Aventis Canada, and Weir Golf Design.</p>
+
+  <ul>
+    <li>Developed websites using technologies such as PHP, AJAX, MySQL, Javascript, ActionScript, and Drupal CMS in a fast-paced environment.</li>
+    <li>Responsible for maintance, backups, and documentation of websites.</li>
+    <li>Graphic Design in Adobe Photoshop, Illustrator, and Flash.</li>
+  </ul>
 
 </div>
 

@@ -1,7 +1,4 @@
-<?php
-  include('lib/request.php');
-  include('templates/header.php');
-?>
+<?php include('templates/header.php'); ?>
 
 <div class="container-fluid">
   <div class="row">

@@ -5,6 +5,7 @@
     <?php
       switch (strtolower($_SERVER['REQUEST_URI']))
       {
+        // quick n' dirty router
         case '/about':
           include_once('about.php');
           break;
@@ -14,9 +15,12 @@
         case '/technologies':
           include_once('technologies.php');
           break;
+        case '/':
         case '/work':
-        default:
           include_once('work.php');
+          break;
+        default:
+          include_once('404.php');
           break;
       }
     ?>

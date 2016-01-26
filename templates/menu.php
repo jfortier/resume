@@ -35,7 +35,7 @@
             <li><a href="/#pair-shaped">Pair Shaped</a></li>
             <li><a href="/#mrx">MRX Digital Sports Solutions</a></li>
             <li><a href="/#3H">3H Communications</a></li>
-            <li><a href="/#Glanfield">Glanfield Marketting</a></li>
+            <li><a href="/#Glanfield">Glanfield Marketing</a></li>
           </ul>
         </li>
 

@@ -9,8 +9,10 @@
 
     <link rel="apple-touch-icon" href="apple-touch-icon.png">
     <link href="bower_components/bootstrap-css/css/bootstrap.min.css" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/main.css"> -->
+    <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
-
     <?php include_once('menu.php'); ?>
+
+    <div class="container-fluid">
+      <div class="row">

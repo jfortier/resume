@@ -20,7 +20,7 @@
             Technologies <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">
-            <li><a href="/tech#languages">Languages &ndash; Frameworks &amp; Libraries</a></li>
+            <li><a href="/tech#languages">Languages</a></li>
             <li><a href="/tech#server">Server Tech</a></li>
             <li><a href="/tech#methodologies">Methodologies</a></li>
             <li><a href="/tech#tools">Tools</a></li>
@@ -28,7 +28,7 @@
         </li>
 
         <li class="dropdown">
-          <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+          <a href="/work" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             Work Experience <span class="caret"></span>
           </a>
           <ul class="dropdown-menu">

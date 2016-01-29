@@ -1,8 +1,8 @@
 <div class="col-xs-12 col-md-4">
 
-  <h3>Technology</h3>
+  <h3>Technologies</h3>
   <ul>
-    <li><a href="#languages">Languages &ndash; Frameworks &amp; Libraries</a></li>
+    <li><a href="#languages">Languages</a></li>
     <li><a href="#server">Server Tech</a></li>
     <li><a href="#methodologies">Methodologies</a></li>
     <li><a href="#tools">Tools</a></li>
@@ -12,7 +12,7 @@
 
 <div class="col-xs-12 col-md-8">
 
-  <h3 id="languages">Languages &ndash; Frameworks &amp; Libraries</h3>
+  <h3 id="languages">Languages</h3>
   <ul>
     <li><strong>CSS</strong>: Less, Sass</li>
     <li><strong>JavaScript</strong>: jQuery, React, CoffeeScript </li>
@@ -23,6 +23,7 @@
 
   <h3 id="server">Server Tech</h3>
   <ul>
+    <li>Amazon Web Services</li>
     <li>AMQP</li>
     <li>Apache</li>
     <li>Bash</li>

@@ -1,3 +1,7 @@
+<?php
+  $pageTitle = "Work";
+  include('templates/header.php'); 
+?>
 <div class="col-xs-12 col-md-8">
 
   <section class="work">
@@ -87,5 +91,6 @@
   </section>
 </div>
 
-<?php include('templates/skills.php'); ?>
-
+<?php
+include('templates/skills.php');
+include('templates/footer.php');

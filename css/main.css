@@ -1,6 +1,13 @@
+html{
+  width: 100%;
+  height: 100%;
+}
+
 body{
-  background: #333333;
-  color: #eeeeee;
+  background: url('/../assets/background.jpg') no-repeat center center #0c1115;
+  color: #bbb;
+  width: 100%;
+  height: 100%;
 }
 
 h1, h2, h3, h4, h5{

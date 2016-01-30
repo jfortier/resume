@@ -1,8 +1,11 @@
-<?php 
+<?php
+require __DIR__ . '/vendor/autoload.php'; 
+
+$route = strtolower($_SERVER['REQUEST_URI']);
+
 include('templates/header.php');
 
 // quick n' dirty router
-$route = strtolower($_SERVER['REQUEST_URI']);
 switch ($route)
 {
   case '/about':
@@ -10,9 +13,6 @@ switch ($route)
     break;
   case '/contact':
     include_once('contact.php');
-    break;
-  case '/tech':
-    include_once('tech.php');
     break;
   case '/':
   case '/work':
@@ -22,4 +22,5 @@ switch ($route)
     include_once('404.php');
     break;
 }
+
 include('templates/footer.php');

@@ -1,15 +1,3 @@
-<div class="col-xs-12 col-md-4">
-
-  <h3>Work Experience</h3>
-  <ul>
-    <li><a href="#pair-shaped">Pair Shaped</a></li>
-    <li><a href="#mrx">MRX Digital Sports Solutions</a></li>
-    <li><a href="#3h">3H Communications</a></li>
-    <li><a href="#glanfield">Glanfield Marketing</a></li>
-  </ul>
-
-</div>
-
 <div class="col-xs-12 col-md-8">
 
   <section class="work">
@@ -98,3 +86,6 @@
     </ul>
   </section>
 </div>
+
+<?php include('templates/skills.php'); ?>
+

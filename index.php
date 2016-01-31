@@ -3,7 +3,6 @@ require __DIR__ . '/vendor/autoload.php';
 
 $dotenv = new Dotenv\Dotenv(__DIR__);
 $dotenv->load();
-$dotenv->required(['EMAIL', 'RECAPTCHA_SECRET']);
 
 // quick n' dirty router
 $route = strtolower($_SERVER['REQUEST_URI']);

@@ -1,12 +1,13 @@
 <?php
-  $pageTitle = "Work";
-  include('templates/header.php'); 
+  $page = "work";
+  include('templates/header.php');
 ?>
 <div class="col-xs-12 col-md-8">
 
   <section class="work">
     <h3 id="pair-shaped">Pair Shaped </h3>
-    <h4>Web Developer | Kitchener, ON | 10/14 &ndash; 01/16</h4>
+    <h4>Web Developer | Kitchener, ON</h4>
+    <h5>Nov. 2014 &ndash; Jan. 2016</h5>
 
     <p>A developer shop focused on pairs programming, responsive design, and
       exciting new techonologies.  Development stack included PHP or Ruby on Rails,
@@ -26,7 +27,8 @@
 
   <section class="work">
     <h3 id="mrx">MRX Digital Sport Solutions </h3>
-    <h4>Senior Web Developer | Hamilton, ON | 04/10 &ndash; 10/14</h4>
+    <h4>Senior Web Developer | Hamilton, ON</h4>
+    <h5>Apr. 2010 &ndash; Oct. 2014</h5>
 
     <p>MRX was a digital media solutions company focused on the sports industry.
       Clients include the Canadian Hockey League, and Canadian Football League.</p>
@@ -56,7 +58,8 @@
 
   <section class="work">
     <h3 id="3h">3H Communications</h3>
-    <h4> Web Developer | Oakville, ON | 01/09 &ndash; 04/10</h4>
+    <h4> Web Developer | Oakville, ON</h4>
+    <h5>Jan. 2009 &ndash; Apr. 2010</h5>
 
     <p>A bilingual marketing advertising agency with focus on branding, design,
     print, and web media. Clients included Windsor Salt, Sanofi Aventis Canada, and
@@ -73,8 +76,29 @@
   </section>
 
   <section class="work">
+    <h3 id="glanfield">Freelance</h3>
+    <h4> Web Developer &amp; IT | Niagara Region, ON</h4>
+    <h5>Jan. 2007 &ndash; Dec. 2008</h5>
+
+    <p>Developed sites for several small businesses using PHP, MySQL, AJAX, and JavaScript.
+       As well as an assistant to a local IT consultant.</p>
+
+    <ul>
+      <li>Designed and created an estimate order form for custom metal projects. Choose
+          the metal type, the width, height, etc.</li>
+
+      <li>Designed and created an online store using Zend cart with PayPal
+        integration.</li>
+
+      <li>IT service calls to various local businesses and Niagara Falls City Hall. </li>
+    </ul>
+
+  </section>
+
+  <section class="work">
     <h3 id="glanfield">Glanfield Marketing</h3>
-    <h4> Web Developer | Welland, ON | 02/07 &ndash; 12/08</h4>
+    <h4> Web Developer | Welland, ON</h4>
+    <h5>Feb. 2006 &ndash; Dec. 2007</h5>
 
     <p>A marketing solutions company focused on developing tools to help online marketers
       reach their goals and target audience.</p>

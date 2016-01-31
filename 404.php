@@ -1,5 +1,5 @@
 <?php
-$pageTitle = "404";
+$page = "404";
 include('templates/header.php');
 ?>
 

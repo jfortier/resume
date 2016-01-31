@@ -1,13 +1,11 @@
 <?php
-  $pageTitle = "Contact";
-  include('templates/header.php');
+$page = "contact";
+include('templates/header.php');
 ?>
 
-<div class="col-xs-12 col-md-4">
+<div class="col-xs-12 col-md-4 spacer-20">
   <?php
     try{
-      $contactForm = new ContactForm();
-
       if ($contactForm->processForm()) {
         print("
           <div class=\"alert alert-success\" role=\"alert\">
@@ -22,8 +20,7 @@
           <span class=\"glyphicon glyphicon-exclamation-sign\" aria-hidden=\"true\"></span>
           <span class=\"sr-only\">Error:</span>
           %s
-        </div>
-        ", $error->getMessage()
+        </div>", $error->getMessage()
       );
     }
   ?>

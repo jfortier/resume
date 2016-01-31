@@ -14,7 +14,6 @@
     "tests"
   ],
   "dependencies": {
-    "normalize-css": "normalize.css#~3.0.3",
     "bootstrap-css": "~3.3.6"
   }
 }

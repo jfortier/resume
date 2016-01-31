@@ -10,12 +10,13 @@
     <h5>Nov. 2014 &ndash; Jan. 2016</h5>
 
     <p>A developer shop focused on pairs programming, responsive design, and
-      exciting new techonologies.  Development stack included PHP or Ruby on Rails,
-      MySQL, SASS, CoffeeScript, React, Bower, Gulp, and Nginx.
+      exciting new technologies. Development stack included PHP,
+      MySQL, SASS, CoffeeScript, React, NPM, Bower, Gulp, and Nginx with the
+      ocassional Ruby appplicaiton.
     </p>
 
     <ul>
-      <li>Developed a multisite MVC framework around WordPress for easy network
+      <li>Developed a multi-site MVC framework around WordPress for easy network
           maintenance and theme development of over 60 websites.</li>
 
       <li>Developed sites for several sports clients including Golf Canada,
@@ -31,7 +32,7 @@
     <h5>Apr. 2010 &ndash; Oct. 2014</h5>
 
     <p>MRX was a digital media solutions company focused on the sports industry.
-      Clients include the Canadian Hockey League, and Canadian Football League.</p>
+      Clients included the Canadian Hockey League, and Canadian Football League.</p>
 
     <ul>
       <li>Lead a team of 7 developers to create a full stack service based CMS
@@ -41,18 +42,19 @@
       <li>Developed game schedules, feeds, and customized live stats for millions
         of sports fans.</li>
 
-      <li>Developed Message Queue based services in python using Test Driven
+      <li>Developed Message Queue based services in Python using Test Driven
         Development.</li>
 
       <li>Developed an ORM to simplify communication between PHP client and
         Python services over RabbitMQ (AMQP).</li>
 
-      <li>Responsible for scripting and configuring various levels of the
-        application stack and their servers. Including Varnish Cache, Apache, Puppet,
-        MySQL with Galera Clustering, HAProxy, and various bash scripts.</li>
+      <li>Responsible for scripting and configuring various parts of the
+        application stack servers using Puppet. Including Varnish Cache,
+        Apache, MariaDB(MySQL fork) with Galera Clustering, HAProxy, and
+        various bash scripts.</li>
 
       <li>Mentored junior developers using pairs programming, peer reviews, and
-        technologiy demos.</li>
+        technology demos.</li>
     </ul>
   </section>
 
@@ -69,7 +71,7 @@
       <li>Developed websites using technologies such as PHP, AJAX, MySQL,
         Javascript, ActionScript, and Drupal CMS in a fast-paced environment.</li>
 
-      <li>Responsible for maintance, backups, and documentation of websites.</li>
+      <li>Responsible for maintenance, backups, and documentation of websites.</li>
 
       <li>Graphic Design in Adobe Photoshop, Illustrator, and Flash.</li>
     </ul>

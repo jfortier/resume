@@ -44,6 +44,7 @@
     <li>Jenkins</li>
     <li>MySQL</li>
     <li>Nginx</li>
+    <li>NPM</li>
     <li>Puppet</li>
     <li>Varnish</li>
   </ul>

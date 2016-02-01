@@ -25,7 +25,7 @@ h3, h4, h5{
   font-weight: 300;
 }
 
-div.spacer-20{
+div.contact-form{
   margin: 20px 0 0;
 }
 
@@ -43,18 +43,22 @@ div.menu a {
   text-transform: uppercase;
   color: #ffffff;
   display: inline-block;
-  margin: 0 0.5em;
-  padding: 0;
+  padding: 5px 10px;
+  margin: 0 0.25em;
+  outline: solid 1px #ffffff;
+
 }
 
+div.menu a:first-child {
+  margin: 0 0.25em 0 0;
+}
+
+div.menu a:hover,
 div.menu a.active{
-  font-weight: 500;
-}
+  background: #fff;
+  color: #31495c;
 
-div.menu a:first-child{
-  margin: 0 0.5em 0 0;
-}
-
-p.about{
-  font-size: 18px;
+  text-decoration: none;
+  transition: background-color 0.8s ease,
+              color 0.8s ease;
 }

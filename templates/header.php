@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Justin Fortier - Web Developer</title>
+    <title>Justin Fortier &ndash; Web Developer | <?php echo $page; ?></title>
 
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="description" content="">
@@ -19,7 +19,7 @@
 
       <div class="row">
         <div class="col-xs-12 col-md-12">
-          <h2>Justin Fortier | <?php echo $page; ?></h2>
+          <h2>Justin Fortier</h2>
         </div>
       </div>
 

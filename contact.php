@@ -3,7 +3,7 @@ $page = "contact";
 include('templates/header.php');
 ?>
 
-<div class="col-xs-12 col-md-4 spacer-20">
+<div class="col-xs-12 col-md-4 contact-form">
   <?php
     try{
       if ($contactForm->processForm()) {

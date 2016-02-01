@@ -1,6 +1,6 @@
 <?php
-  $page = "work";
-  include('templates/header.php');
+$page = "work";
+include('templates/header.php');
 ?>
 <div class="col-xs-12 col-md-8">
 
@@ -11,8 +11,8 @@
 
     <p>A developer shop focused on pairs programming, responsive design, and
       exciting new technologies. Development stack included PHP,
-      MySQL, SASS, CoffeeScript, React, NPM, Bower, Gulp, and Nginx with the
-      ocassional Ruby appplicaiton.
+      MySQL, SASS, CoffeeScript, React, NPM, Bower, Gulp, Nginx, and
+      occasionally Ruby on Rails.
     </p>
 
     <ul>
@@ -20,7 +20,7 @@
           maintenance and theme development of over 60 websites.</li>
 
       <li>Developed sites for several sports clients including Golf Canada,
-          Hamilton Ticats, and 60 team network for the Candian Hockey League.</li>
+          Hamilton Ticats, and a 60 site network for the Canadian Hockey League.</li>
 
       <li>Configured and maintained Amazon EC2 servers running Ubuntu.</li>
     </ul>
@@ -35,7 +35,7 @@
       Clients included the Canadian Hockey League, and Canadian Football League.</p>
 
     <ul>
-      <li>Lead a team of 7 developers to create a full stack service based CMS
+      <li>Lead a team of 10 developers to create a full stack service based CMS
         using open technologies such as PHP, Python, JavaScript, RabbitMQ, MySQL and
         Less.</li>
 
@@ -78,19 +78,19 @@
   </section>
 
   <section class="work">
-    <h3 id="glanfield">Freelance</h3>
+    <h3 id="freelance">Freelance</h3>
     <h4> Web Developer &amp; IT | Niagara Region, ON</h4>
     <h5>Jan. 2007 &ndash; Dec. 2008</h5>
 
-    <p>Developed sites for several small businesses using PHP, MySQL, AJAX, and JavaScript.
-       As well as an assistant to a local IT consultant.</p>
+    <p>Developed several sites for small businesses using PHP, MySQL, AJAX, and JavaScript.
+       Also was a technical aid to a local IT consultant.</p>
 
     <ul>
-      <li>Designed and created an estimate order form for custom metal projects. Choose
-          the metal type, the width, height, etc.</li>
-
       <li>Designed and created an online store using Zend cart with PayPal
         integration.</li>
+
+      <li>Designed and created an estimate order form for custom metal projects. Choose
+          the metal type, the width, height, etc.</li>
 
       <li>IT service calls to various local businesses and Niagara Falls City Hall. </li>
     </ul>

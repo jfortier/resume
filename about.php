@@ -1,6 +1,6 @@
 <?php
-$page = "about";
-include('templates/header.php');
+  $page = "about";
+  include('templates/header.php');
 ?>
 
 <div class="col-xs-12 col-md-8 about">

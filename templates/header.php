@@ -18,8 +18,8 @@
     <div class="container-fluid">
 
       <div class="row">
-        <div class="col-xs-12 col-md-12">
-          <h2>Justin Fortier</h2>
+        <div class="col-xs-12 col-md-12 header">
+          <h2><a class="home" href="/">Justin Fortier</a></h2>
         </div>
       </div>
 

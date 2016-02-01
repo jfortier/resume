@@ -1,6 +1,6 @@
 <?php
-$page = "work";
-include('templates/header.php');
+  $page = "work";
+  include('templates/header.php');
 ?>
 <div class="col-xs-12 col-md-8">
 
@@ -39,6 +39,11 @@ include('templates/header.php');
         using open technologies such as PHP, Python, JavaScript, RabbitMQ, MySQL and
         Less.</li>
 
+      <li>Responsible for scripting and configuring various parts of the
+        application stack servers using Amazon AWS and Puppet. Including
+        Varnish Cache, Apache, MariaDB(MySQL fork) with Galera Clustering,
+        HAProxy, and various bash scripts.</li>
+
       <li>Developed game schedules, feeds, and customized live stats for millions
         of sports fans.</li>
 
@@ -47,11 +52,6 @@ include('templates/header.php');
 
       <li>Developed an ORM to simplify communication between PHP client and
         Python services over RabbitMQ (AMQP).</li>
-
-      <li>Responsible for scripting and configuring various parts of the
-        application stack servers using Puppet. Including Varnish Cache,
-        Apache, MariaDB(MySQL fork) with Galera Clustering, HAProxy, and
-        various bash scripts.</li>
 
       <li>Mentored junior developers using pairs programming, peer reviews, and
         technology demos.</li>
@@ -69,7 +69,7 @@ include('templates/header.php');
 
     <ul>
       <li>Developed websites using technologies such as PHP, AJAX, MySQL,
-        Javascript, ActionScript, and Drupal CMS in a fast-paced environment.</li>
+        JavaScript, ActionScript, and Drupal CMS in a fast-paced environment.</li>
 
       <li>Responsible for maintenance, backups, and documentation of websites.</li>
 
@@ -118,5 +118,5 @@ include('templates/header.php');
 </div>
 
 <?php
-include('templates/skills.php');
-include('templates/footer.php');
+  include('templates/skills.php');
+  include('templates/footer.php');

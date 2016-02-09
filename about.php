@@ -7,7 +7,7 @@
   <h3 id="about">About</h3>
   <p>
     A self-motivated full-stack developer that thrives on being challenged. With
-    a decade of experience creating robust, well written web application using 
+    a decade of experience creating robust, well written web applications using
     open source technologies. Has managed and configured all parts of the
     developer stack using Amazon Web Services and Puppet &ndash; delivering
     sports news and statistics to millions of fans.

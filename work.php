@@ -86,7 +86,7 @@
        Also was a technical aid to a local IT consultant.</p>
 
     <ul>
-      <li>Designed and created an online store using Zend cart with PayPal
+      <li>Designed and created an online store using Zend with PayPal
         integration.</li>
 
       <li>Designed and created an estimate order form for custom metal projects. Choose

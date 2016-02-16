@@ -6,23 +6,23 @@
   <ul>
     <li><strong>PHP</strong>: Symfony, Silex, WordPress</li>
     <li><strong>MySQL</strong>: Propel, Doctrine</li>
-    <li><strong>JavaScript</strong>: jQuery, React, CoffeeScript </li>
+    <li><strong>JavaScript</strong>: jQuery, ReactJS, CoffeeScript </li>
     <li><strong>Python</strong>: Django</li>
     <li><strong>CSS3</strong>: Bootstrap, Less, Sass</li>
-    <li><strong>HTML5</strong></li>
-    <li><strong>Data Structures</strong>: JSON, RSS2, XML</li>
+    <li><strong>Markup</strong>: HTML5, XML, YAML</li>
+    <li><strong>Data</strong>: ATOM, JSON, RSS2</li>
   </ul>
 
   <h4 id="tools">Build Tools</h4>
   <ul>
-    <li>bower</li>
-    <li>composer</li>
-    <li>git</li>
-    <li>gulp</li>
+    <li>Bower</li>
+    <li>Composer</li>
+    <li>Git</li>
+    <li>Gulp</li>
     <li>iTerm2</li>
-    <li>svn</li>
-    <li>vagrant</li>
-    <li>vim</li>
+    <li>SVN</li>
+    <li>Vagrant</li>
+    <li>Vim</li>
   </ul>
 
   <h4 id="os">OSes</h4>
@@ -30,6 +30,7 @@
     <li>OS X</li> 
     <li>Red Hat</li>
     <li>Ubuntu</li>
+    <li>Windows (IE/Edge testing)</li>
   </ul>
 
   <h4 id="practices">Practices</h4>
@@ -56,14 +57,14 @@
     </li>
     <li>AMQP</li>
     <li>Apache</li>
-    <li>Bash</li>
+    <li>BASH</li>
     <li>Capistrano</li>
     <li>Graylog</li>
     <li>HAProxy</li>
     <li>Jenkins</li>
     <li>MySQL</li>
     <li>NGINX</li>
-    <li>NPM</li>
+    <li>npm</li>
     <li>Puppet</li>
     <li>SSH</li>
     <li>Varnish</li>

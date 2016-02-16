@@ -6,12 +6,12 @@
 
   <section class="work">
     <h3 id="pair-shaped">Pair Shaped </h3>
-    <h4>Web Developer | Kitchener, ON</h4>
+    <h4>Senior Web Developer | Kitchener, ON</h4>
     <h5>Nov. 2014 &ndash; Jan. 2016</h5>
 
     <p>A developer shop focused on pairs programming, responsive design, and
       exciting new technologies. Development stack included PHP,
-      MySQL, SASS, CoffeeScript, React, NPM, Bower, Gulp, Nginx, and
+      MySQL, SASS, CoffeeScript, ReactJS, npm, Bower, Gulp, NGINX, and
       occasionally Ruby on Rails.
     </p>
 

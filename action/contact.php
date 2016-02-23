@@ -13,7 +13,7 @@ class ContactForm
 
   public function __construct()
   {
-    $this->method = strtolower($_SERVER['REQUEST_METHOD']);
+    $this->method = $_SERVER['REQUEST_METHOD'];
   }
 
   public function getField($field) {
@@ -25,7 +25,7 @@ class ContactForm
 
   public function processForm()
   {
-    if ($this->method == "post") {
+    if ($this->method == "POST") {
 
       $this->checkRequiredFields();
       $recaptcha = new GoogleRecaptcha();
@@ -33,7 +33,7 @@ class ContactForm
       if ($recaptcha->verify($_POST['g-recaptcha-response'])) {
         return $this->sendEmail($_POST['email'], $_POST['name'], $_POST['message']);
       } else {
-        $this->throwError();
+        throw new \Exception("Could not verify captcha, try again.");
       }
 
     }
@@ -54,7 +54,12 @@ class ContactForm
     $mail = $this->configureMailer();
     $mail->addReplyTo($email, $name);
     $mail->Subject = 'Resume Contact Form';
-    $mail->Body    = $message;
+    $mail->Body    = "
+      From: {$name} ({$email}) <br /><br />
+
+      Message: <br />
+      {$message}
+    ";
     $mail->AltBody = strip_tags($message);
 
     if(!$mail->send()) {
@@ -74,7 +79,7 @@ class ContactForm
     $mail->Host = 'smtp.zoho.com';                        // Specify main and backup SMTP servers
     $mail->SMTPAuth = true;                               // Enable SMTP authentication
     $mail->Username = getenv('EMAIL_FROM');               // SMTP username
-    $mail->Password = getenv('EMAIL_FROM_PASSWORD');           // SMTP password
+    $mail->Password = getenv('EMAIL_FROM_PASSWORD');      // SMTP password
     $mail->SMTPSecure = getenv('EMAIL_SMTP_SECURITY');    // Enable TLS encryption, `ssl` also accepted
     $mail->Port = getenv('EMAIL_SMTP_PORT');              // TCP port to connect to
 
@@ -84,11 +89,6 @@ class ContactForm
     $mail->isHTML(true);                                  // Set email format to HTML
 
     return $mail;
-  }
-
-  public function throwError()
-  {
-    throw new \Exception("Could not verify captcha, try again.");
   }
 
 }

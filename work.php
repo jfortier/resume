@@ -89,10 +89,12 @@
       <li>Designed and created an online store using Zend with PayPal
         integration.</li>
 
-      <li>Designed and created an estimate order form for custom metal projects. Choose
-          the metal type, the width, height, etc.</li>
+      <li>Designed and created a complex custom metal project submission process.</li>
 
       <li>IT service calls to various local businesses and Niagara Falls City Hall. </li>
+
+      <li>Setup of computer lab network for teaching using Windows Server for 
+      CERF (Francophone Employment Resource Centre).</li>
     </ul>
 
   </section>
